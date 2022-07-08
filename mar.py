@@ -5,6 +5,9 @@ class Mar:
         self.__quantidade_episodios = quantidade_episodios
         self.minutos_totais = self.calcula_total_minutos()
 
+    def __radd__(self, other):
+        return other + self.minutos_totais
+
     @property
     def classificacao(self):
         return self.__classificacao
@@ -21,8 +24,8 @@ class Mar:
     def calcula_total_minutos(self):
         return self.__minutos * self.__quantidade_episodios
 
-    def __radd__(self, other):
-        return  other + self.minutos_totais
+    def adicionar_minutos_extra(self, minutos_extra):
+        self.minutos_totais += minutos_extra
 
 class Suporte_mar:
     def __init__(self):
