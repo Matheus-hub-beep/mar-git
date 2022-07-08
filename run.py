@@ -3,12 +3,16 @@ from mar import Mar, Suporte_mar
 
 
 #cadastrando
+
+#Serie
 stranger_things = Mar('Serie', 45, 25)
 stranger_things_4 = Mar('Serie', 70, 6)
 outer_banks = Mar('Serie', 43, 12)
 the_umbrella_academy = Mar('Serie', 45, 23)
 riverdale = Mar('Serie', 41, 92)
 
+
+#Podcasts
 kanye_west_joe_rogan = Mar('Podcast', 100)
 miley_cyrus_joe_rogan = Mar('Podcast', 126)
 post_malone_joe_rogan = Mar('Podcast', 229)
