@@ -17,7 +17,6 @@ elon_musk_joe_rogan = Mar('Podcast', 81)
 wiz_khalifa_joe_rogan = Mar('Podcast', 123)
 
 
-
 #adicionando na lista
 suporte_mar = Suporte_mar()
 suporte_mar.adicionar_programa(stranger_things)
