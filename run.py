@@ -7,19 +7,20 @@ from mar import Mar, Suporte_mar
 #Serie
 stranger_things = Mar('Serie', 45, 25)
 stranger_things_4 = Mar('Serie', 70, 6)
-outer_banks = Mar('Serie', 43, 12)
+outer_banks = Mar('Serie', 43, 18)
 the_umbrella_academy = Mar('Serie', 45, 23)
 riverdale = Mar('Serie', 41, 92)
 
 
 #Podcasts
-kanye_west_joe_rogan = Mar('Podcast', 100)
+kanye_west_joe_rogan = Mar('Podcast', 177)
 miley_cyrus_joe_rogan = Mar('Podcast', 126)
 post_malone_joe_rogan = Mar('Podcast', 229)
 neil_deGrasse_joe_rogan = Mar('Podcast', 72)
 elon_musk_joe_rogan = Mar('Podcast', 81)
 wiz_khalifa_joe_rogan = Mar('Podcast', 123)
-
+alex_Jones_e_Tim_Dillon_joe_rogan = Mar('Podcast', 36)
+elon_musk_joe_rogan_dois = Mar('Podcast', 28)
 
 #adicionando na lista
 suporte_mar = Suporte_mar()
