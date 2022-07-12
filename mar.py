@@ -20,12 +20,14 @@ class Mar:
     def quantidade_episodios(self):
         return self.__quantidade_episodios
 
-
     def calcula_total_minutos(self):
         return self.__minutos * self.__quantidade_episodios
 
     def adicionar_minutos_extra(self, minutos_extra):
         self.minutos_totais += minutos_extra
+
+    def funcao_teste(self):
+        pass
 
 class Suporte_mar:
     def __init__(self):
